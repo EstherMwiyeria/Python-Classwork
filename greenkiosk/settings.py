@@ -43,6 +43,11 @@ INSTALLED_APPS = [
     "Customer",
     "Payment",
     "Reviews",
+    "delivery",
+    "buyer",
+    "ClientsSignUp",
+    "StoreData"
+
 ]
 
 MIDDLEWARE = [
