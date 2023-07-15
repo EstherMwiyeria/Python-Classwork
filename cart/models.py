@@ -1,6 +1,9 @@
 from django.db import models
+from inventory.models import Product
+
 
 class Cart(models.Model):
+   product = models.ManyToManyField(Product)
    item_id = models.AutoField(primary_key=True)
    item_name = models.CharField(max_length=50)
    price = models.DecimalField(max_digits=8,decimal_places=2)

@@ -46,7 +46,8 @@ INSTALLED_APPS = [
     "delivery",
     "buyer",
     "ClientsSignUp",
-    "StoreData"
+    "StoreData",
+    "Vendor"
 
 ]
 
